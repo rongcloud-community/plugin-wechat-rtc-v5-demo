@@ -11,7 +11,6 @@ https://developers.weixin.qq.com/miniprogram/dev/framework/open-ability/authoriz
 [可在融云开发者后台 - 服务管理](https://developer.rongcloud.cn/app/appService/8zkf1JD8NLF0gxOV3S0NuA)中创建一个应用，创建完应用后，在下图中获取应用的 `appkey` 和 `secret`。
 ![](https://github.com/rongcloud-community/plugin-wechat-rtc-v5-demo/blob/main/base64.png)
 
-<img width="362" alt="image" src="https://user-images.githubusercontent.com/13001095/186633019-8c1699f1-9952-4ba4-9ad5-f772d6e72d97.png">
 
 ### RoomId
 
