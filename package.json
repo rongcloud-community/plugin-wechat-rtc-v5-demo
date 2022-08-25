@@ -1,0 +1,20 @@
+{
+  "name": "rtc-mini",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitlab2.rongcloud.net/websdk-team/rtc-mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@rongcloud/engine": ">=5.4.5",
+    "@rongcloud/imlib-next": ">=5.4.5",
+    "@rongcloud/plugin-wechat-rtc": "^5.0.0"
+  }
+}

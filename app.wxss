@@ -1,0 +1,23 @@
+.rong-container{
+  width: 100%;
+  height: 100vh;
+  overflow-y: auto;
+  background: linear-gradient(0deg,#36455F, #9eb5db);
+  color: #FFF;
+}
+.rong-button{
+  background-color: #09B5CE;
+  color: #FFF;
+}
+.rong-input{
+  border-bottom: 1px solid #CCC;
+  margin: 0 auto;
+  padding: 5px 0;
+}
+
+.rong-placeholder{
+  color: #FFF;
+}
+.rong-tip{
+  font-size: 10px;
+}

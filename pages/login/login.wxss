@@ -1,0 +1,16 @@
+.rong-bars{
+  width: 65%;
+  margin: 0 auto;
+}
+.rong-input-uid, .rong-input-roomid{
+  width: 100%;
+}
+
+.rong-bar{
+  margin: 100rpx 0;
+}
+
+.rong-button-login{
+  width: 100%;
+  margin-top: 100rpx;
+}

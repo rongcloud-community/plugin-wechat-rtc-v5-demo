@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/main/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#9eb5db",
+    "navigationBarTitleText": "RongCloud RTC",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,23 @@
+<view class="rong-container">
+  <view class="rong-bars">
+    <picker class="rong-picker" bindchange="bindPickerChange" value="{{index}}" range="{{conversationTypeLabels}}">
+      <view>AppKey：{{conversationTypeLabels[index]}}</view>
+    </picker>
+    <view class="rong-bar">
+      <input type="text" class="rong-input rong-input-roomid" placeholder-class="rong-placeholder" placeholder="输入用户房间号" bindinput="onRoomInput" value="{{roomId}}" />
+      <text hidden="{{isHiddenRoomTip}}" class="rong-tip rong-login-tip">只能包含英文、数字、长度 15 个字符</text>
+    </view>
+    <!-- <view class="rong-bar">
+      <input type="text" class="rong-input rong-input-roomid" placeholder-class="rong-placeholder" placeholder="输入发布资源名称" bindinput="onRoomInput" value="{{tag}}" />
+      <text hidden="{{isHiddenRoomTip}}" class="rong-tip rong-login-tip">只能包含英文、数字、长度 15 个字符</text>
+    </view> -->
+    <!-- <picker class="rong-picker" bindchange="bindPickerChange" value="{{index}}" range="{{mediaTypeLabels}}">
+      <view>资源类型: {{mediaTypeLabels[index]}}</view>
+    </picker> -->
+    <view class="rong-bar">
+      <input type="text" class="rong-input rong-input-uid" placeholder-class="rong-placeholder" placeholder="输入用户 ID" bindinput="onInput" />
+      <text hidden="{{isHiddenTip}}" class="rong-tip rong-login-tip">只能包含英文、数字、长度 15 个字符</text>
+    </view>
+    <button class="rong-button rong-button-login" bindtap="login">登录</button>
+  </view>
+</view>
